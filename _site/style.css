@@ -226,10 +226,10 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
-    width: 100%;
+    width: 500px;
     height: 100%;
     opacity: 0;
-    background: rgba(24,288,156,.9);
+    background: #11866f;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -262,6 +262,7 @@ section.success {
 #portfolio * {
     z-index: 2;
 }
+
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
