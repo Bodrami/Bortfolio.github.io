@@ -22,6 +22,17 @@
     animation-duration: 1ms;
 }
 
+#main-image {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out; /* 페이드 효과 */
+}
+
+.hidden {
+    opacity: 0;
+}
+
 body {
     overflow-x: hidden;
 }
