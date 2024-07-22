@@ -7,7 +7,7 @@ const imageElement = document.getElementById('main-image');
 
 // 클릭 이벤트 핸들러
 imageElement.addEventListener('click', () => {
-    
+
     // 페이드 아웃 효과
     imageElement.classList.add('hidden');
     
@@ -18,6 +18,6 @@ imageElement.addEventListener('click', () => {
         imageElement.src = images[currentImageIndex];
         
         // 페이드 인 효과
-        imageElement.classList.remove('hidden');
+        imageElement.classList.remove('hidden1');
     }, 500); // 페이드 아웃 시간과 동일해야 함
 });
