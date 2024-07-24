@@ -108,6 +108,7 @@ hr.star-primary:after {
 
 hr.star-light {
     border-color: #444;
+    height: 0.5%;
 }
 
 hr.star-light:after {
@@ -236,8 +237,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #868686;
+    color: #444;
+    background: #d9d9d9;
 }
 
 @media(max-width:767px) {
@@ -251,8 +252,8 @@ section.success {
 }
 
 section#portfolio {
-    background: #868686;
-    color: #fff;
+    background: #d9d9d9;
+    color: #444;
 }
 
 #portfolio .portfolio-item {
